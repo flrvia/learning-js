@@ -1,22 +1,23 @@
 console.log("My First Program: Working with variables");
-// -> Exibindo uma frase, o console.log nós usamos para exibir algo, como se fosse o sysout do java
+// -> Showing a sentence, the console.log we use to show something, like java's sysout.
+
 
 const age = 21;
-// -> Guardando variável
+// -> Saving variable
 
 console.log("I have " + (age+1) + " years old.");
-// -> Exibindo a variável com soma.
+// -> Showing the variable with add
  
 console.log("I have " + (age-1) + " years old.");
-// -> Exibindo a variável com subtração.
+// -> Showing the variable with subtract
 
 console.log("I have " + (age/2) + " years old.");
-// -> Exibindo a variável com divisão.
+// -> Showing the variable with division.
 
 console.log("I have " + (age*2) + " years old.");
-// -> Exibindo a variável com multiplicação.
+// -> Showing the variable with multiplication
 
 const ageAdded = age+5;
-// -> Guardando uma variável nova com uma variável já existente.
+// -> Saving the new variable with a existing variable.
 
 console.log("Now we have "+ageAdded + " years old");

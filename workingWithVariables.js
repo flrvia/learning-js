@@ -1,8 +1,8 @@
 console.log("Working with variables!");
 
-// -> JavaScript é case sensitive, ou seja precisa que as letras estejam certas, nao pode mudar para maisculas ou minusculas.
+// -> JavaScript is case sensitive, in other words it needs the letters to be correct, it can't change to lower or upper case.
 
-// -> Seguir um padrão: se suas variáveis só começam com minusculas, então as mantenha assim!
+// ->Follow a pattern: if yours variables only start with lower case, then keep it that way!
 
-
-
+const age = 29;
+const nome = "Flávia";
