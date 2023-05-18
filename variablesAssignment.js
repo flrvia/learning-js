@@ -7,6 +7,7 @@ console.log("Working with Variable Assignment");
 //const nome = "Flávia";
 let nome = "Flávia"; 
 // -> variable that can change
+
 const lastname = "Santana";
 const age = 21;
 
@@ -16,6 +17,11 @@ console.log(nome, lastname);
 console.log(`My name is ${nome} ${lastname}`);
 
 const completeName = nome + lastname;
-// -> Isso é uma sobrescrita
+// -> Isso é uma overwrite
 
 console.log(completeName);
+
+let age2; //declaring avariable
+age2 = 21; // assignment of value
+age2 = age2 + 1;
+console.log(age2);
